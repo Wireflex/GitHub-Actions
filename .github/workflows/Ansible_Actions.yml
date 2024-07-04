@@ -22,7 +22,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v6.1.0
         with:
-          context: Jenkins/
+          context: Nginx_html/
           push: true
           tags: wireflex/actions
   
